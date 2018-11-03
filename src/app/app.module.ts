@@ -15,6 +15,8 @@ import { VenuePage } from "../pages/venue/venue";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { Calendar } from '@ionic-native/calendar';
+
 import { Pro } from '@ionic/pro';
 
 Pro.init('3aac9fe6', {
@@ -74,6 +76,7 @@ export class MyErrorHandler implements ErrorHandler {
     StatusBar,
     SplashScreen,
     IonicErrorHandler,
+    Calendar,
     {provide: ErrorHandler, useClass: MyErrorHandler}
   ]
 })
