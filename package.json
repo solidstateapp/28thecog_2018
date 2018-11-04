@@ -68,7 +68,7 @@
         "MIN_BACKGROUND_DURATION": "30"
       },
       "cordova-plugin-calendar": {
-        "CALENDAR_USAGE_DESCRIPTION": " "
+        "CALENDAR_USAGE_DESCRIPTION": "This application adds the congress events to your calendar"
       }
     },
     "platforms": [

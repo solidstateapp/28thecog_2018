@@ -91,7 +91,7 @@
         <variable name="MIN_BACKGROUND_DURATION" value="30" />
     </plugin>
     <plugin name="cordova-plugin-calendar" spec="5.1.2">
-        <variable name="CALENDAR_USAGE_DESCRIPTION" value=" " />
+        <variable name="CALENDAR_USAGE_DESCRIPTION" value="This application adds the congress events to your calendar" />
     </plugin>
     <engine name="android" spec="7.1.1" />
     <engine name="ios" spec="4.5.5" />
