@@ -10,6 +10,9 @@ import { CoursePage } from "../pages/course/course";
 import { EaccmePage } from "../pages/eaccme/eaccme";
 import { ProgramPage } from "../pages/program/program";
 import { VenuePage } from "../pages/venue/venue";
+import { SponsorsPage } from "../pages/sponsors/sponsors";
+import { ScientificsupportPage } from '../pages/scientificsupport/scientificsupport';
+import { WelcomePage } from '../pages/welcome/welcome';
 
 @Component({
   templateUrl: 'app.html'
@@ -17,7 +20,7 @@ import { VenuePage } from "../pages/venue/venue";
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = NewsPage;
+  rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -26,13 +29,16 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'News', component: NewsPage },
       { title: 'Home', component: HomePage },
+      { title: 'News', component: NewsPage },
+      { title: 'Welcome', component: WelcomePage },
       { title: 'Committees', component: CommitteesPage },
       { title: 'Course', component: CoursePage },
       { title: 'EACCME', component: EaccmePage },
       { title: 'Program', component: ProgramPage },
       { title: 'Venue', component: VenuePage },
+      { title: 'Sponsors', component: SponsorsPage },
+      { title: 'Scientific', component: ScientificsupportPage }
     ];
 
   }

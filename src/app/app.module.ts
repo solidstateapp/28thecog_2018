@@ -11,6 +11,9 @@ import { CoursePage } from "../pages/course/course";
 import { EaccmePage } from "../pages/eaccme/eaccme";
 import { ProgramPage } from "../pages/program/program";
 import { VenuePage } from "../pages/venue/venue";
+import { SponsorsPage } from "../pages/sponsors/sponsors";
+import { ScientificsupportPage } from '../pages/scientificsupport/scientificsupport';
+import { WelcomePage } from '../pages/welcome/welcome';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -20,7 +23,7 @@ import { Calendar } from '@ionic-native/calendar';
 import { Pro } from '@ionic/pro';
 
 Pro.init('3aac9fe6', {
-  appVersion: '1.0.2'
+  appVersion: '1.0.3'
 })
 
 @Injectable()
@@ -54,7 +57,10 @@ export class MyErrorHandler implements ErrorHandler {
     CoursePage,
     EaccmePage,
     ProgramPage,
-    VenuePage
+    VenuePage,
+    SponsorsPage,
+    ScientificsupportPage,
+    WelcomePage
   ],
   imports: [
     BrowserModule,
@@ -70,7 +76,10 @@ export class MyErrorHandler implements ErrorHandler {
     CoursePage,
     EaccmePage,
     ProgramPage,
-    VenuePage
+    VenuePage,
+    SponsorsPage,
+    ScientificsupportPage,
+    WelcomePage
   ],
   providers: [
     StatusBar,
