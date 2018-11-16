@@ -26,6 +26,7 @@
     "@ionic-native/status-bar": "~4.15.0",
     "@ionic/pro": "^2.0.3",
     "@ionic/storage": "2.2.0",
+    "a": "2.1.2",
     "cordova-android": "^7.1.2",
     "cordova-ios": "^4.5.5",
     "cordova-plugin-calendar": "5.1.2",

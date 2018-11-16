@@ -23,7 +23,7 @@ import { Calendar } from '@ionic-native/calendar';
 import { Pro } from '@ionic/pro';
 
 Pro.init('3aac9fe6', {
-  appVersion: '1.0.5'
+  appVersion: '1.0.6'
 })
 
 @Injectable()
